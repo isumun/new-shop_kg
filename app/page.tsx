@@ -55,7 +55,6 @@ const Home: React.FC = () => {
       </main>
       <Hero />
       <Footer />
->>>>>>> Stashed changes
     </>
   );
 };
