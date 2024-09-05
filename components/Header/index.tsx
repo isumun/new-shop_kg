@@ -14,6 +14,58 @@ const Header: React.FC = () => {
             </a>
           </Link>
           <span className="ml-2 text-xl font-bold">My Shop</span>
+    <>
+      <div className="wrap">
+        <div className="header__content">
+          <div className="header__language">
+            <div className="container">
+              <div className="header__content__top">
+                <div className="header__language__text">
+                  Summer Sale For All Swim Suits And Free Express Delivery - OFF
+                  50%!<a>ShopNow</a>
+                </div>
+                <div className="header__language__choice">
+                  English
+                  <GoChevronDown />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="header__head">
+          <div className="container">
+            <div className="header__head__content">
+              <div className="header__head__logo">
+                <h1>Exclusive</h1>
+              </div>
+              <div className="header__head__nav">
+                <a href="#">Home</a>
+
+                <a href="#">Shop</a>
+
+                <a href="#">About</a>
+
+                <a href="#">Contact</a>
+              </div>
+              <div className="header__head__search">
+                <input
+                  className="header__head__search__input"
+                  type="text"
+                  placeholder="What are you looking for?
+"
+                />
+                <span>
+                  <CiHeart />
+                </span>
+                <span>
+                  <BiCartAlt />
+                </span>
+                <span>
+                  <IoPersonCircleOutline />
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
         <nav>
           <Link href="/login" legacyBehavior>
@@ -22,6 +74,9 @@ const Header: React.FC = () => {
         </nav>
       </div>
     </header>
+=======
+      <hr className="headerHr" />
+    </>
   );
 };
 
