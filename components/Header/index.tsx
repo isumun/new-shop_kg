@@ -14,7 +14,6 @@ const Header: React.FC = () => {
             </a>
           </Link>
           <span className="ml-2 text-xl font-bold">My Shop</span>
-=======
     <>
       <div className="wrap">
         <div className="header__content">
