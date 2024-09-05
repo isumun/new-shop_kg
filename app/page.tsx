@@ -1,5 +1,4 @@
 import Header from '@/components/Header';
-<<<<<<< Updated upstream
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import { productsAPI } from '@/lib/product';
