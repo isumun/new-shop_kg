@@ -1,0 +1,60 @@
+#footer {
+  background-color: black;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.exclusive-input{
+  color: rgb(245, 236, 236);
+  border-radius: 2px white;
+  background-color: black;
+}
+.exclusive {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.support {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.account {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.link {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.download {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.download-second-block {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(116, 104, 104);
+}
