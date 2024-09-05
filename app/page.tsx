@@ -3,7 +3,6 @@ import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import { productsAPI } from '@/lib/product';
 import { formatCurrency } from '@/utils/formatCurrency';
-=======
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero/Hero';
 
