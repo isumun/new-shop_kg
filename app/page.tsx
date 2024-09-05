@@ -7,7 +7,6 @@ import { formatCurrency } from '@/utils/formatCurrency';
 =======
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero/Hero';
->>>>>>> Stashed changes
 
 const Home: React.FC = () => {
   const [products, setProducts] = useState<Product[]>([]);
