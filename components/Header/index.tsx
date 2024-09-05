@@ -5,7 +5,6 @@ import logo from '@/public/assets/logo.png';
 
 const Header: React.FC = () => {
   return (
-<<<<<<< Updated upstream
     <header className="w-full py-4 bg-gray-800 text-white">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center cursor-pointer">
