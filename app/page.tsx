@@ -56,7 +56,6 @@ const Home: React.FC = () => {
           </ul>
         )}
       </main>
-=======
       <Hero />
       <Footer />
 >>>>>>> Stashed changes
