@@ -79,7 +79,6 @@ const Header: React.FC = () => {
 =======
       <hr className="headerHr" />
     </>
->>>>>>> Stashed changes
   );
 };
 
