@@ -76,7 +76,6 @@ const Header: React.FC = () => {
           </Link>
         </nav>
       </div>
-<<<<<<< Updated upstream
     </header>
 =======
       <hr className="headerHr" />
