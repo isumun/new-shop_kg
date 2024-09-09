@@ -63,11 +63,6 @@ const Header: React.FC = () => {
             </div>
           </div>
         </div>
-        <nav>
-          <Link href="/login" legacyBehavior>
-            <a className="text-lg">Login</a>
-          </Link>
-        </nav>
       </div>
 
       <hr className="headerHr" />
