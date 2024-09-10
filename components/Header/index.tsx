@@ -2,18 +2,14 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '@/public/assets/logo.png';
+import { GoChevronDown } from 'react-icons/go';
+import { CiHeart } from 'react-icons/ci';
+import { BiCartAlt } from 'react-icons/bi';
+import { IoPersonCircleOutline } from 'react-icons/io5';
+import '../Header/header.css';
 
 const Header: React.FC = () => {
   return (
-    <header className="w-full py-4 bg-gray-800 text-white">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="flex items-center cursor-pointer">
-          <Link href="/" legacyBehavior>
-            <a>
-              <Image src={logo} alt="Logo" width={50} height={50} />
-            </a>
-          </Link>
-          <span className="ml-2 text-xl font-bold">My Shop</span>
     <>
       <div className="wrap">
         <div className="header__content">
@@ -73,8 +69,7 @@ const Header: React.FC = () => {
           </Link>
         </nav>
       </div>
-    </header>
-=======
+
       <hr className="headerHr" />
     </>
   );

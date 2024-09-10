@@ -15,6 +15,7 @@ import imgCamera from '../../public/assets/Camera.png';
 import imgWatch from '../../public/assets/SmartWatch.png';
 import imgHeadPhones from '../../public/assets/Headphone.png';
 import imgGaming from '../../public/assets/Gamepad.png';
+import '../Hero/Hero.css';
 
 function Hero() {
   const arrayLike = [
