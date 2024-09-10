@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { SlArrowRightCircle } from 'react-icons/sl';
 import { SlArrowLeftCircle } from 'react-icons/sl';
 import imageLike from '../../public/assets/Vector.png';
-import '../Hero/Hero.css';
+import '../HomePageSixth/style.css';
 import { FaRegHeart } from 'react-icons/fa';
 import { MdOutlineRemoveRedEye } from 'react-icons/md';
 
