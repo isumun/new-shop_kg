@@ -15,7 +15,8 @@ import imgCamera from '../../public/assets/Camera.png';
 import imgWatch from '../../public/assets/SmartWatch.png';
 import imgHeadPhones from '../../public/assets/Headphone.png';
 import imgGaming from '../../public/assets/Gamepad.png';
-import '../Hero/Hero.css';
+import imgBufer from '../../public/assets/Bufer.png';
+import { Input } from 'postcss';
 
 function Hero() {
   const arrayLike = [
@@ -300,7 +301,7 @@ function Hero() {
               </button>
             </div>
           </div>
-          <div className="cotegory-images">
+          <div className="category-images">
             <div className="img-phone">
               <Image src={imgPhone} alt="" />
               <h3>Phones</h3>
@@ -328,10 +329,679 @@ function Hero() {
           </div>
         </div>
         <hr className="productHr" />
-        <div className="fourth-block"></div>
-        <div className="fifth-block"></div>
-        <div className="sixth-block"></div>
-        <div className="seventh-block"></div>
+        <div className="fourth-block">
+          <div className="cotegories">
+            <button className="color"></button>
+            <p>This Month</p>
+          </div>
+          <div className="bestProduct">
+            <h1>Best Selling Products</h1>
+            <button>view All</button>
+          </div>
+          <div className="productPage">
+            {/* cards  */}
+            <div className="productCard">
+              <div className="productImage">
+                <div className="productImg">
+                  <Image src={imgJoystick} alt="" />
+                </div>
+                <h3>-40%</h3>
+                <div className="productLike">
+                  <h2>
+                    <FaRegHeart />
+                  </h2>
+                  <h2>
+                    <MdOutlineRemoveRedEye />
+                  </h2>
+                </div>
+              </div>
+              <h4>HAVIT HV-G92 Gamepad</h4>
+              <div className="productPrice">
+                <h2>$120</h2>
+                <h2
+                  style={{
+                    color: '#000000',
+                  }}
+                  className="productPriceSale"
+                >
+                  $160
+                </h2>
+              </div>
+              <div className="lik">
+                {arrayLike.slice(0, 5).map((item, index) => (
+                  <div key={index} className="productLikeImage">
+                    <Image src={item} alt="" />
+                  </div>
+                ))}
+                <h3>({arrayLike.length})</h3>
+              </div>
+            </div>
+            <div className="productCard">
+              <div className="productImage">
+                <div className="productImg">
+                  <Image src={imgJoystick} alt="" />
+                </div>
+                <h3>-40%</h3>
+                <div className="productLike">
+                  <h2>
+                    <FaRegHeart />
+                  </h2>
+                  <h2>
+                    <MdOutlineRemoveRedEye />
+                  </h2>
+                </div>
+              </div>
+              <h4>HAVIT HV-G92 Gamepad</h4>
+              <div className="productPrice">
+                <h2>$120</h2>
+                <h2
+                  style={{
+                    color: '#000000',
+                  }}
+                  className="productPriceSale"
+                >
+                  $160
+                </h2>
+              </div>
+              <div className="lik">
+                {arrayLike.slice(0, 5).map((item, index) => (
+                  <div key={index} className="productLikeImage">
+                    <Image src={item} alt="" />
+                  </div>
+                ))}
+                <h3>({arrayLike.length})</h3>
+              </div>
+            </div>
+            <div className="productCard">
+              <div className="productImage">
+                <div className="productImg">
+                  <Image src={imgJoystick} alt="" />
+                </div>
+                <h3>-40%</h3>
+                <div className="productLike">
+                  <h2>
+                    <FaRegHeart />
+                  </h2>
+                  <h2>
+                    <MdOutlineRemoveRedEye />
+                  </h2>
+                </div>
+              </div>
+              <h4>HAVIT HV-G92 Gamepad</h4>
+              <div className="productPrice">
+                <h2>$120</h2>
+                <h2
+                  style={{
+                    color: '#000000',
+                  }}
+                  className="productPriceSale"
+                >
+                  $160
+                </h2>
+              </div>
+              <div className="lik">
+                {arrayLike.slice(0, 5).map((item, index) => (
+                  <div key={index} className="productLikeImage">
+                    <Image src={item} alt="" />
+                  </div>
+                ))}
+                <h3>({arrayLike.length})</h3>
+              </div>
+            </div>
+            <div className="productCard">
+              <div className="productImage">
+                <div className="productImg">
+                  <Image src={imgJoystick} alt="" />
+                </div>
+                <h3>-40%</h3>
+                <div className="productLike">
+                  <h2>
+                    <FaRegHeart />
+                  </h2>
+                  <h2>
+                    <MdOutlineRemoveRedEye />
+                  </h2>
+                </div>
+              </div>
+              <h4>HAVIT HV-G92 Gamepad</h4>
+              <div className="productPrice">
+                <h2>$120</h2>
+                <h2
+                  style={{
+                    color: '#000000',
+                  }}
+                  className="productPriceSale"
+                >
+                  $160
+                </h2>
+              </div>
+              <div className="lik">
+                {arrayLike.slice(0, 5).map((item, index) => (
+                  <div key={index} className="productLikeImage">
+                    <Image src={item} alt="" />
+                  </div>
+                ))}
+                <h3>({arrayLike.length})</h3>
+              </div>
+            </div>
+            <div className="productCard">
+              <div className="productImage">
+                <div className="productImg">
+                  <Image src={imgJoystick} alt="" />
+                </div>
+                <h3>-40%</h3>
+                <div className="productLike">
+                  <h2>
+                    <FaRegHeart />
+                  </h2>
+                  <h2>
+                    <MdOutlineRemoveRedEye />
+                  </h2>
+                </div>
+              </div>
+              <h4>HAVIT HV-G92 Gamepad</h4>
+              <div className="productPrice">
+                <h2>$120</h2>
+                <h2
+                  style={{
+                    color: '#000000',
+                  }}
+                  className="productPriceSale"
+                >
+                  $160
+                </h2>
+              </div>
+              <div className="lik">
+                {arrayLike.slice(0, 5).map((item, index) => (
+                  <div key={index} className="productLikeImage">
+                    <Image src={item} alt="" />
+                  </div>
+                ))}
+                <h3>({arrayLike.length})</h3>
+              </div>
+            </div>
+            {/* card  */}
+          </div>
+        </div>
+        <div className="fifth-block">
+          <div className="music__block">
+            <div className="music-block-info">
+              <p>categories</p>
+              <h1>
+                Enhance Your <br /> Music Experience
+              </h1>
+              <div className="music-time">
+                <div className="music-section">
+                  <h3>19</h3>
+                  <p>days</p>
+                </div>
+                <div className="music-section">
+                  <h3>23</h3>
+                  <p>hours</p>
+                </div>
+                <div className="music-section">
+                  <h3>03</h3>
+                  <p>minutes</p>
+                </div>
+                <div className="music-section">
+                  <h3>56</h3>
+                  <p>seconds</p>
+                </div>
+              </div>
+              <button>Buy Now!</button>
+            </div>
+            <div className="music-block-image">
+              <Image src={imgBufer} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="sixth-block">
+          <div className="cotegories">
+            <button className="color"></button>
+            <p>Our Products</p>
+          </div>
+          <div className="ourExProduct">
+            <h1>Explore Our Products</h1>
+            <div className="browse-prev-next">
+              <button className="prev-browse">
+                <SlArrowLeftCircle />
+              </button>
+              <button className="next-browse">
+                <SlArrowRightCircle />
+              </button>
+            </div>
+          </div>
+          <div className="productPage">
+            {/* cards  */}
+            <div className="productCard">
+              <div className="productImage">
+                <div className="productImg">
+                  <Image src={imgJoystick} alt="" />
+                </div>
+                <h3>-40%</h3>
+                <div className="productLike">
+                  <h2>
+                    <FaRegHeart />
+                  </h2>
+                  <h2>
+                    <MdOutlineRemoveRedEye />
+                  </h2>
+                </div>
+              </div>
+              <h4>HAVIT HV-G92 Gamepad</h4>
+              <div className="productPrice">
+                <h2>$120</h2>
+                <h2
+                  style={{
+                    color: '#000000',
+                  }}
+                  className="productPriceSale"
+                >
+                  $160
+                </h2>
+              </div>
+              <div className="lik">
+                {arrayLike.slice(0, 5).map((item, index) => (
+                  <div key={index} className="productLikeImage">
+                    <Image src={item} alt="" />
+                  </div>
+                ))}
+                <h3>({arrayLike.length})</h3>
+              </div>
+            </div>
+            <div className="productCard">
+              <div className="productImage">
+                <div className="productImg">
+                  <Image src={imgJoystick} alt="" />
+                </div>
+                <h3>-40%</h3>
+                <div className="productLike">
+                  <h2>
+                    <FaRegHeart />
+                  </h2>
+                  <h2>
+                    <MdOutlineRemoveRedEye />
+                  </h2>
+                </div>
+              </div>
+              <h4>HAVIT HV-G92 Gamepad</h4>
+              <div className="productPrice">
+                <h2>$120</h2>
+                <h2
+                  style={{
+                    color: '#000000',
+                  }}
+                  className="productPriceSale"
+                >
+                  $160
+                </h2>
+              </div>
+              <div className="lik">
+                {arrayLike.slice(0, 5).map((item, index) => (
+                  <div key={index} className="productLikeImage">
+                    <Image src={item} alt="" />
+                  </div>
+                ))}
+                <h3>({arrayLike.length})</h3>
+              </div>
+            </div>
+            <div className="productCard">
+              <div className="productImage">
+                <div className="productImg">
+                  <Image src={imgJoystick} alt="" />
+                </div>
+                <h3>-40%</h3>
+                <div className="productLike">
+                  <h2>
+                    <FaRegHeart />
+                  </h2>
+                  <h2>
+                    <MdOutlineRemoveRedEye />
+                  </h2>
+                </div>
+              </div>
+              <h4>HAVIT HV-G92 Gamepad</h4>
+              <div className="productPrice">
+                <h2>$120</h2>
+                <h2
+                  style={{
+                    color: '#000000',
+                  }}
+                  className="productPriceSale"
+                >
+                  $160
+                </h2>
+              </div>
+              <div className="lik">
+                {arrayLike.slice(0, 5).map((item, index) => (
+                  <div key={index} className="productLikeImage">
+                    <Image src={item} alt="" />
+                  </div>
+                ))}
+                <h3>({arrayLike.length})</h3>
+              </div>
+            </div>
+            <div className="productCard">
+              <div className="productImage">
+                <div className="productImg">
+                  <Image src={imgJoystick} alt="" />
+                </div>
+                <h3>-40%</h3>
+                <div className="productLike">
+                  <h2>
+                    <FaRegHeart />
+                  </h2>
+                  <h2>
+                    <MdOutlineRemoveRedEye />
+                  </h2>
+                </div>
+              </div>
+              <h4>HAVIT HV-G92 Gamepad</h4>
+              <div className="productPrice">
+                <h2>$120</h2>
+                <h2
+                  style={{
+                    color: '#000000',
+                  }}
+                  className="productPriceSale"
+                >
+                  $160
+                </h2>
+              </div>
+              <div className="lik">
+                {arrayLike.slice(0, 5).map((item, index) => (
+                  <div key={index} className="productLikeImage">
+                    <Image src={item} alt="" />
+                  </div>
+                ))}
+                <h3>({arrayLike.length})</h3>
+              </div>
+            </div>
+            <div className="productCard">
+              <div className="productImage">
+                <div className="productImg">
+                  <Image src={imgJoystick} alt="" />
+                </div>
+                <h3>-40%</h3>
+                <div className="productLike">
+                  <h2>
+                    <FaRegHeart />
+                  </h2>
+                  <h2>
+                    <MdOutlineRemoveRedEye />
+                  </h2>
+                </div>
+              </div>
+              <h4>HAVIT HV-G92 Gamepad</h4>
+              <div className="productPrice">
+                <h2>$120</h2>
+                <h2
+                  style={{
+                    color: '#000000',
+                  }}
+                  className="productPriceSale"
+                >
+                  $160
+                </h2>
+              </div>
+              <div className="lik">
+                {arrayLike.slice(0, 5).map((item, index) => (
+                  <div key={index} className="productLikeImage">
+                    <Image src={item} alt="" />
+                  </div>
+                ))}
+                <h3>({arrayLike.length})</h3>
+              </div>
+            </div>
+            {/* card  */}
+          </div>
+          <div className="productPage">
+            {/* cards  */}
+            <div className="productCard">
+              <div className="productImage">
+                <div className="productImg">
+                  <Image src={imgJoystick} alt="" />
+                </div>
+                <h3>-40%</h3>
+                <div className="productLike">
+                  <h2>
+                    <FaRegHeart />
+                  </h2>
+                  <h2>
+                    <MdOutlineRemoveRedEye />
+                  </h2>
+                </div>
+              </div>
+              <h4>HAVIT HV-G92 Gamepad</h4>
+              <div className="productPrice">
+                <h2>$120</h2>
+                <h2
+                  style={{
+                    color: '#000000',
+                  }}
+                  className="productPriceSale"
+                >
+                  $160
+                </h2>
+              </div>
+              <div className="lik">
+                {arrayLike.slice(0, 5).map((item, index) => (
+                  <div key={index} className="productLikeImage">
+                    <Image src={item} alt="" />
+                  </div>
+                ))}
+                <h3>({arrayLike.length})</h3>
+              </div>
+              <div className="radio-input">
+                <div className="radio-button">
+                  <input type="radio" name="example-radio" />
+                  <span className="radio"></span>
+                </div>
+                <div className="radio-button">
+                  <input type="radio" name="example-radio" />
+                  <span className="radio"></span>
+                </div>
+              </div>
+            </div>
+            <div className="productCard">
+              <div className="productImage">
+                <div className="productImg">
+                  <Image src={imgJoystick} alt="" />
+                </div>
+                <h3>-40%</h3>
+                <div className="productLike">
+                  <h2>
+                    <FaRegHeart />
+                  </h2>
+                  <h2>
+                    <MdOutlineRemoveRedEye />
+                  </h2>
+                </div>
+              </div>
+              <h4>HAVIT HV-G92 Gamepad</h4>
+              <div className="productPrice">
+                <h2>$120</h2>
+                <h2
+                  style={{
+                    color: '#000000',
+                  }}
+                  className="productPriceSale"
+                >
+                  $160
+                </h2>
+              </div>
+              <div className="lik">
+                {arrayLike.slice(0, 5).map((item, index) => (
+                  <div key={index} className="productLikeImage">
+                    <Image src={item} alt="" />
+                  </div>
+                ))}
+                <h3>({arrayLike.length})</h3>
+              </div>
+              <div className="radio-input">
+                <div className="radio-button">
+                  <input type="radio" name="example-radio" />
+                  <span className="radio"></span>
+                </div>
+                <div className="radio-button">
+                  <input type="radio" name="example-radio" />
+                  <span className="radio"></span>
+                </div>
+              </div>
+            </div>
+            <div className="productCard">
+              <div className="productImage">
+                <div className="productImg">
+                  <Image src={imgJoystick} alt="" />
+                </div>
+                <h3>-40%</h3>
+                <div className="productLike">
+                  <h2>
+                    <FaRegHeart />
+                  </h2>
+                  <h2>
+                    <MdOutlineRemoveRedEye />
+                  </h2>
+                </div>
+              </div>
+              <h4>HAVIT HV-G92 Gamepad</h4>
+              <div className="productPrice">
+                <h2>$120</h2>
+                <h2
+                  style={{
+                    color: '#000000',
+                  }}
+                  className="productPriceSale"
+                >
+                  $160
+                </h2>
+              </div>
+              <div className="lik">
+                {arrayLike.slice(0, 5).map((item, index) => (
+                  <div key={index} className="productLikeImage">
+                    <Image src={item} alt="" />
+                  </div>
+                ))}
+                <h3>({arrayLike.length})</h3>
+              </div>
+              <div className="radio-input">
+                <div className="radio-button">
+                  <input type="radio" name="example-radio" />
+                  <span className="radio"></span>
+                </div>
+                <div className="radio-button">
+                  <input type="radio" name="example-radio" />
+                  <span className="radio"></span>
+                </div>
+              </div>
+            </div>
+            <div className="productCard">
+              <div className="productImage">
+                <div className="productImg">
+                  <Image src={imgJoystick} alt="" />
+                </div>
+                <h3>-40%</h3>
+                <div className="productLike">
+                  <h2>
+                    <FaRegHeart />
+                  </h2>
+                  <h2>
+                    <MdOutlineRemoveRedEye />
+                  </h2>
+                </div>
+              </div>
+              <h4>HAVIT HV-G92 Gamepad</h4>
+              <div className="productPrice">
+                <h2>$120</h2>
+                <h2
+                  style={{
+                    color: '#000000',
+                  }}
+                  className="productPriceSale"
+                >
+                  $160
+                </h2>
+              </div>
+              <div className="lik">
+                {arrayLike.slice(0, 5).map((item, index) => (
+                  <div key={index} className="productLikeImage">
+                    <Image src={item} alt="" />
+                  </div>
+                ))}
+                <h3>({arrayLike.length})</h3>
+              </div>
+              <div className="radio-input">
+                <div className="radio-button">
+                  <input type="radio" name="example-radio" />
+                  <span className="radio"></span>
+                </div>
+                <div className="radio-button">
+                  <input type="radio" name="example-radio" />
+                  <span className="radio"></span>
+                </div>
+              </div>
+            </div>
+            <div className="productCard">
+              <div className="productImage">
+                <div className="productImg">
+                  <Image src={imgJoystick} alt="" />
+                </div>
+                <h3>-40%</h3>
+                <div className="productLike">
+                  <h2>
+                    <FaRegHeart />
+                  </h2>
+                  <h2>
+                    <MdOutlineRemoveRedEye />
+                  </h2>
+                </div>
+              </div>
+              <h4>HAVIT HV-G92 Gamepad</h4>
+              <div className="productPrice">
+                <h2>$120</h2>
+                <h2
+                  style={{
+                    color: '#000000',
+                  }}
+                  className="productPriceSale"
+                >
+                  $160
+                </h2>
+              </div>
+              <div className="lik">
+                {arrayLike.slice(0, 5).map((item, index) => (
+                  <div key={index} className="productLikeImage">
+                    <Image src={item} alt="" />
+                  </div>
+                ))}
+                <h3>({arrayLike.length})</h3>
+              </div>
+              <div className="radio-input">
+                <div className="radio-button">
+                  <input type="radio" name="example-radio" />
+                  <span className="radio"></span>
+                </div>
+                <div className="radio-button">
+                  <input type="radio" name="example-radio" />
+                  <span className="radio"></span>
+                </div>
+              </div>
+            </div>
+            {/* card  */}
+          </div>
+          <div className="ourProduct">
+            <button>View All Products</button>
+          </div>
+        </div>
+        <div className="seventh-block">
+          <div className="cotegories">
+            <button className="color"></button>
+            <p>Featured</p>
+          </div>
+          <div className="newArial">
+            <h1>New Arial</h1>
+          </div>
+        </div>
         <div className="eight-block"></div>
       </div>
     </div>
