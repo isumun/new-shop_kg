@@ -1,0 +1,23 @@
+.first-block {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .woman-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+  }
+  .man-btn {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+  }
+  
+  .categories p {
+    color: black;
+  }
+  

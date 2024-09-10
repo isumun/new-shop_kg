@@ -1,0 +1,54 @@
+.radio-button input {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .radio-input {
+    display: flex;
+  }
+  .ourProduct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+  }
+  
+  .ourProduct button {
+    background: #db4444;
+    width: 234px;
+    color: white;
+    height: 56px;
+    border-radius: 4px;
+  }
+  .ourExProduct {
+    display: flex;
+    justify-content: space-between;
+  }
+.cotegories {
+  display: flex;
+  align-items: center;
+}
+.cotegories p {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  color: rgb(219, 68, 68);
+}  
+.browse-prev-next {
+    margin-top: 30px;
+  }
+  .prev-browse,
+  .next-browse {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  .prev-browse:hover,
+  .next-browse:hover {
+    color: rgb(219, 68, 68);
+  }
