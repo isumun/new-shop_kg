@@ -9,6 +9,11 @@
     color: black;
     text-decoration: none;
 }
+.connection{
+  border: 1rem solid whitesmoke;
+  background: white;
+  padding: 10px;
+}
 .contact__connection {
   display: flex;
   margin-top: 10pc;
@@ -37,6 +42,10 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
+  border: 1rem solid whitesmoke;
+  background: whitesmoke;
+;
+  padding: 10px;
   
 }
 .contact__inputs {
@@ -44,16 +53,17 @@
   gap: 10px;
 }
 .contact__inputs input {
+  border: none;
   width: 235px;
   height: 50px;
   gap: 0px;
   opacity: 0px;
 }
 .message textarea {
+  border: none;
   width: 737px;
   height: 207px;
   gap: 0px;
-  border-radius: 4px 0px 0px 0px;
   opacity: 0px;
   padding: 10px;
 }

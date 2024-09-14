@@ -1,0 +1,13 @@
+.employees{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10pc;
+}
+.employees-icon{
+    display: flex;
+    gap: 20px;
+}
+.employees-icon img{
+    width: 24px;
+    height: 24px;
+}
