@@ -1,0 +1,38 @@
+.login {
+  display: flex;
+  gap: 129px;
+}
+.login-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-inputs input {
+  width: 350px;
+  height: 50px;
+  margin: 10px 0px 20px 0px;
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+}
+.login-buttons {
+  display: flex;
+  gap: 87px;
+}
+.login-create {
+  width: 143px;
+  height: 56px;
+  padding: 16px 10px 16px 10px;
+  background: #db4444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.forget-btn {
+  width: 143px;
+  height: 56px;
+  padding: 16px 10px 16px 10px;
+  background: white;
+  color: #db4444;
+  border: none;
+}

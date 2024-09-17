@@ -41,7 +41,7 @@ const Header: React.FC = () => {
 
                 <Link href="/about">About</Link>
 
-                <Link href="/sign-up">Sign Up</Link>
+                <Link href="/signup">Sign Up</Link>
               </div>
               <div className="header__head__search">
                 <input
