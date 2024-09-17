@@ -1,0 +1,18 @@
+.aboutActive {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10pc;
+}
+
+.aboutActive > div {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  width: Hug (200px) px;
+  height: Hug (166px) px;
+  padding: 10px;
+  text-align: center;
+}
+
+.aboutActive > div:hover {
+  background-color: #db4444;
+}

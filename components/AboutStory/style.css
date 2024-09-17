@@ -1,0 +1,15 @@
+.home-link{
+    display: flex;
+    gap: 10px;   
+}
+.home-link a{ 
+    color: black;
+    text-decoration: none;
+}
+.aboutStory__block{
+    display: flex;
+    gap: 10pc;
+}
+.aboutStory__text{
+    margin-top: 10pc;
+}

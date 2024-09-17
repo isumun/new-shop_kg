@@ -1,0 +1,80 @@
+.contact{
+    margin:20px;
+}
+.home-link{
+  display: flex;
+  gap: 10px;   
+}
+.home-link a{
+    color: black;
+    text-decoration: none;
+}
+.connection{
+  border: 1rem solid whitesmoke;
+  background: white;
+  padding: 10px;
+}
+.contact__connection {
+  display: flex;
+  margin-top: 10pc;
+  gap: 10pc;
+  
+}
+
+.connection__email{
+    margin-top: 20px;
+}
+.mail-logo {
+  display: flex;
+  gap: 10px;
+}
+.mail-logo span {
+  margin-top: 10px;
+}
+.phone-logo {
+  display: flex;
+  gap: 10px;
+}
+.phone-logo span {
+  margin-top: 10px;
+}
+.contact__add {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  border: 1rem solid whitesmoke;
+  background: whitesmoke;
+;
+  padding: 10px;
+  
+}
+.contact__inputs {
+  display: flex;
+  gap: 10px;
+}
+.contact__inputs input {
+  border: none;
+  width: 235px;
+  height: 50px;
+  gap: 0px;
+  opacity: 0px;
+}
+.message textarea {
+  border: none;
+  width: 737px;
+  height: 207px;
+  gap: 0px;
+  opacity: 0px;
+  padding: 10px;
+}
+.submit button {
+  margin-left: 35.8pc;
+  width: Hug (215px) px;
+  height: Hug (56px) px;
+  padding: 16px 48px 16px 48px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  color: white;
+  background: #db4444;
+}

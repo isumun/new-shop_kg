@@ -35,13 +35,13 @@ const Header: React.FC = () => {
                 <h1>Exclusive</h1>
               </div>
               <div className="header__head__nav">
-                <a href="#">Home</a>
+                <Link href="/">Home</Link>
 
-                <a href="#">Shop</a>
+                <Link href="/contact">Contact</Link>
 
-                <a href="#">About</a>
+                <Link href="/about">About</Link>
 
-                <a href="#">Contact</a>
+                <Link href="/sign-up">Sign Up</Link>
               </div>
               <div className="header__head__search">
                 <input
