@@ -50,15 +50,15 @@ const Header: React.FC = () => {
                   placeholder="What are you looking for?
 "
                 />
-                <span>
+                <Link href="/wishlist">
                   <CiHeart />
-                </span>
-                <span>
+                </Link>
+                <Link href="/">
                   <BiCartAlt />
-                </span>
-                <span>
+                </Link>
+                <Link href="/">
                   <IoPersonCircleOutline />
-                </span>
+                </Link>
               </div>
             </div>
           </div>
