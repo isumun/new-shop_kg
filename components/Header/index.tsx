@@ -41,7 +41,7 @@ const Header: React.FC = () => {
 
                 <Link href="/about">About</Link>
 
-                <Link href="/sign-up">Sign Up</Link>
+                <Link href="/signup">Sign Up</Link>
               </div>
               <div className="header__head__search">
                 <input
@@ -50,15 +50,15 @@ const Header: React.FC = () => {
                   placeholder="What are you looking for?
 "
                 />
-                <span>
+                <Link href="/wishlist">
                   <CiHeart />
-                </span>
-                <span>
+                </Link>
+                <Link href="/">
                   <BiCartAlt />
-                </span>
-                <span>
+                </Link>
+                <Link href="/">
                   <IoPersonCircleOutline />
-                </span>
+                </Link>
               </div>
             </div>
           </div>

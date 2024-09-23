@@ -1,0 +1,181 @@
+.wishjust{
+    margin: 5pc 0;
+}
+
+.JustForYou {
+  display: flex;
+  align-items: center;
+}
+.JustForYou p {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  color: rgb(219, 68, 68);
+}
+.color {
+  width: 20px;
+  height: 30px;
+  border: none;
+  background-color: #ec6307;
+  margin-right: 10px;
+}
+.bestProduct button {
+  background: #db4444;
+  width: 159px;
+  height: 56px;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.bestProduct {
+  display: flex;
+  justify-content: space-between;
+}
+.productPage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.productCard {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.wishjust-quantity {
+  display: flex;
+  justify-content: space-between;
+}
+.seeAllBtn{
+  width: 150px;
+  height: 56px;
+  background: white;
+  border-radius: 5px;
+}
+.productImg {
+  width: 270px;
+  height: 250px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+}
+
+.productImage {
+  position: relative;
+}
+
+.productLike {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.productImage h3 {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 99;
+  background: #db4444;
+  width: 55px;
+  height: 26px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.productBtn {
+  position: absolute;
+  bottom: 2px;
+  width: 270px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  gap: 10px;
+}
+.productBtn h4 {
+  color: white;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+}
+.productBtn p {
+  color: white;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.productPrice {
+  display: flex;
+  margin-top: -20px;
+  gap: 10px;
+}
+
+.productPrice h2 {
+  color: #db4444;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.productPriceSale {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-decoration: line-through;
+}
+
+.lik {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.productLike h2 {
+  width: 34px;
+  height: 34px;
+  color: black;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.productAllProduct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.productAllProduct button {
+  background: #db4444;
+  width: 234px;
+  color: white;
+  height: 56px;
+  border-radius: 4px;
+}
+
+.productHr {
+  margin: 80px 0;
+}

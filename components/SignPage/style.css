@@ -1,0 +1,47 @@
+.signup {
+  display: flex;
+  gap: 129px;
+}
+.signup-inputs {
+  display: flex;
+  flex-direction: column;
+}
+.signup-inputs input {
+  width: 350px;
+  height: 50px;
+  margin: 10px 0px 20px 0px;
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+}
+.signup-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.signup-create {
+  width: Hug (371px) px;
+  height: Hug (56px) px;
+  padding: 16px 122px 16px 122px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  background: #db4444;
+  color: white;
+  border: none;
+}
+.google-btn {
+  display: flex;
+  width: Hug (371px) px;
+  height: Hug (56px) px;
+  gap: 10px;
+  padding: 16px 100px 16px 122px;
+  border-radius: 4px 0px 0px 0px;
+  color: black;
+  border: none;
+}
+.goTo-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+}

@@ -1,17 +1,16 @@
-'use client';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import LoginPage from '@/components/LoginPage';
+import SignupPage from '@/components/SignPage';
 import React from 'react';
 
-function Login() {
+function Sinup() {
   return (
-    <>
+    <div>
       <Header />
-      <LoginPage />
+      <SignupPage />
       <Footer />
-    </>
+    </div>
   );
 }
 
-export default Login;
+export default Sinup;
